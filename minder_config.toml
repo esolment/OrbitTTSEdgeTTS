@@ -1,7 +1,7 @@
 [minder]
 name = "OrbitTTSEdgeTTS" # Required parameter
 version = "1.0.0" # Required parameter
-description = "OrbitTTSEdgeTTS is is a module for free, fast and high-quality and TTS from Microsoft" # Short description. Required parameter
+description = "Асинхронный модуль преобразования текста в речь (TTS) с использованием edge-tts и воспроизведением через sounddevice. Поддерживает разбиение текста на чанки, удаление хвостовой тишины, параллельную генерацию и воспроизведение, а также корректную остановку. Изначально создавался для системы Orbit." # Short description. Required parameter
 authors = [ # The list of authors. If there is only one author, make a list with one dictionary.
     { name = "esolment", email = "esolment@gmail.com" }
 ]
