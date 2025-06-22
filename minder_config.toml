@@ -10,7 +10,7 @@ urls = [ # Links. For example, a repository, an official website, etc.
     "https://github.com/esolment/OrbitTTSEdgeTTS"
 ]
 license = "MIT" # Minder license
-python = "==3.11" # Required Python version
+python = "==3.11.*" # Required Python version
 mind = ">=1.0.0" # Required Mind version
 install-requires = [ # List of required libraries
     "guardin-mind",
