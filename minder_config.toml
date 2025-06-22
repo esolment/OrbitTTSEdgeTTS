@@ -1,0 +1,22 @@
+[minder]
+name = "OrbitTTSEdgeTTS" # Required parameter
+version = "1.0.0" # Required parameter
+description = "OrbitTTSEdgeTTS is is a module for free, fast and high-quality and TTS from Microsoft" # Short description. Required parameter
+authors = [ # The list of authors. If there is only one author, make a list with one dictionary.
+    { name = "esolment", email = "esolment@gmail.com" }
+]
+readme = "README.md" #  README file
+urls = [ # Links. For example, a repository, an official website, etc.
+    "https://github.com/esolment/OrbitTTSEdgeTTS"
+]
+license = "MIT" # Minder license
+python = "==3.11" # Required Python version
+mind = ">=1.0.0" # Required Mind version
+install-requires = [ # List of required libraries
+    "guardin-mind",
+    "edge-tts",
+    "sounddevice",
+    "soundfile",
+    "concurrent_log_handler",
+    "numpy"
+]
