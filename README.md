@@ -21,7 +21,7 @@
 ## Установка
 
 1. Убедитесь что у вас установлен Python версии 3.11 и библиотека guardin-mind
-2. Установите библиотеку с помощью команды ```mind install esolment_OrbitTTSEdgeTTS```
+2. Установите майндер с помощью команды ```mind install esolment_OrbitTTSEdgeTTS```
 3. Убедитесь, что у вас установлены библиотеки для работы со звуком (например, на Windows — драйверы, на Linux — ALSA или PulseAudio).
 ---
 
@@ -29,10 +29,12 @@
 
 ```python
 import asyncio
-from orbit_tts_edgetts import OrbitTTSEdgeTTS  # имя файла с классом
+from guardin_mind import Mind
+
+mind = Mind()
+tts = mind.OrbitTTSEdgeTTS()
 
 async def main():
-    tts = OrbitTTSEdgeTTS()
 
     text = "Привет! Это пример работы нашего TTS модуля. Текст будет разбит на части и воспроизведён."
 
